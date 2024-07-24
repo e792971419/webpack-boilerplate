@@ -3,6 +3,7 @@ import googleAnalyticsPlugin from '@analytics/google-analytics'
 
 const analytics = Analytics({
     app: 'my-app',
+    debug: true,
     plugins: [
       /* Load Google Analytics v4 */
       googleAnalyticsPlugin({
