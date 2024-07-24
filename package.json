@@ -16,6 +16,11 @@
     "webpack 5",
     "webpack boilerplate"
   ],
+  "dependencies": {
+    "analytics": "^0.8.13",
+    "use-analytics": "^1.1.0",
+    "@analytics/google-analytics": "^1.0.7"
+  },
   "devDependencies": {
     "@babel/core": "^7.15.8",
     "@babel/plugin-proposal-class-properties": "^7.14.5",

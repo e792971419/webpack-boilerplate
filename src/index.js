@@ -1,6 +1,12 @@
 // Test import of a JavaScript module
 import { example } from '@/js/example'
+import analytics from './js/analytics'
 
+analytics.page()
+analytics.track('cartCheckout', {
+    item: 'pink socks',
+    price: 20
+  })
 // Test import of an asset
 import webpackLogo from '@/images/webpack-logo.svg'
 
